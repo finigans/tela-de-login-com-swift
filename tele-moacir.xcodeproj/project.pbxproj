@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92DA908427CEBB7F00F360BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DA908327CEBB7F00F360BC /* AppDelegate.swift */; };
+		92DA908627CEBB7F00F360BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DA908527CEBB7F00F360BC /* SceneDelegate.swift */; };
+		92DA908827CEBB7F00F360BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DA908727CEBB7F00F360BC /* ViewController.swift */; };
+		92DA908D27CEBB8300F360BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DA908C27CEBB8300F360BC /* Assets.xcassets */; };
+		92DA909027CEBB8300F360BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DA908E27CEBB8300F360BC /* LaunchScreen.storyboard */; };
+		92DA909827CECD9100F360BC /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DA909727CECD9100F360BC /* MainCoordinator.swift */; };
+		92DA909A27CECF7700F360BC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DA909927CECF7700F360BC /* Coordinator.swift */; };
+		92DA909D27CED00100F360BC /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DA909C27CED00100F360BC /* LoginModel.swift */; };
+		92DA909F27CED02A00F360BC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DA909E27CED02A00F360BC /* LoginViewController.swift */; };
+		92DA90A127CED05A00F360BC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DA90A027CED05A00F360BC /* LoginViewModel.swift */; };
+		92DA90A327CF8D8400F360BC /* EmployerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DA90A227CF8D8400F360BC /* EmployerModel.swift */; };
+		92DA90A527CF8DD800F360BC /* EmployerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DA90A427CF8DD800F360BC /* EmployerViewModel.swift */; };
+		92DA90A727CF8DED00F360BC /* EmployerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DA90A627CF8DED00F360BC /* EmployerViewController.swift */; };
+		92DA90A927CF8F4A00F360BC /* EmployerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DA90A827CF8F4A00F360BC /* EmployerCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92DA908027CEBB7F00F360BC /* tele-moacir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tele-moacir.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DA908327CEBB7F00F360BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92DA908527CEBB7F00F360BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		92DA908727CEBB7F00F360BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92DA908C27CEBB8300F360BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92DA908F27CEBB8300F360BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92DA909127CEBB8300F360BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DA909727CECD9100F360BC /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		92DA909927CECF7700F360BC /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		92DA909C27CED00100F360BC /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		92DA909E27CED02A00F360BC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		92DA90A027CED05A00F360BC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		92DA90A227CF8D8400F360BC /* EmployerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerModel.swift; sourceTree = "<group>"; };
+		92DA90A427CF8DD800F360BC /* EmployerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerViewModel.swift; sourceTree = "<group>"; };
+		92DA90A627CF8DED00F360BC /* EmployerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerViewController.swift; sourceTree = "<group>"; };
+		92DA90A827CF8F4A00F360BC /* EmployerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92DA907D27CEBB7F00F360BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92DA907727CEBB7F00F360BC = {
+			isa = PBXGroup;
+			children = (
+				92DA908227CEBB7F00F360BC /* tele-moacir */,
+				92DA908127CEBB7F00F360BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92DA908127CEBB7F00F360BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92DA908027CEBB7F00F360BC /* tele-moacir.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92DA908227CEBB7F00F360BC /* tele-moacir */ = {
+			isa = PBXGroup;
+			children = (
+				92DA909B27CECFDC00F360BC /* login */,
+				92DA909927CECF7700F360BC /* Coordinator.swift */,
+				92DA909727CECD9100F360BC /* MainCoordinator.swift */,
+				92DA908327CEBB7F00F360BC /* AppDelegate.swift */,
+				92DA908527CEBB7F00F360BC /* SceneDelegate.swift */,
+				92DA908727CEBB7F00F360BC /* ViewController.swift */,
+				92DA908C27CEBB8300F360BC /* Assets.xcassets */,
+				92DA908E27CEBB8300F360BC /* LaunchScreen.storyboard */,
+				92DA909127CEBB8300F360BC /* Info.plist */,
+				92DA90A227CF8D8400F360BC /* EmployerModel.swift */,
+				92DA90A427CF8DD800F360BC /* EmployerViewModel.swift */,
+				92DA90A627CF8DED00F360BC /* EmployerViewController.swift */,
+				92DA90A827CF8F4A00F360BC /* EmployerCell.swift */,
+			);
+			path = "tele-moacir";
+			sourceTree = "<group>";
+		};
+		92DA909B27CECFDC00F360BC /* login */ = {
+			isa = PBXGroup;
+			children = (
+				92DA909C27CED00100F360BC /* LoginModel.swift */,
+				92DA909E27CED02A00F360BC /* LoginViewController.swift */,
+				92DA90A027CED05A00F360BC /* LoginViewModel.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92DA907F27CEBB7F00F360BC /* tele-moacir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DA909427CEBB8300F360BC /* Build configuration list for PBXNativeTarget "tele-moacir" */;
+			buildPhases = (
+				92DA907C27CEBB7F00F360BC /* Sources */,
+				92DA907D27CEBB7F00F360BC /* Frameworks */,
+				92DA907E27CEBB7F00F360BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tele-moacir";
+			productName = "tele-moacir";
+			productReference = 92DA908027CEBB7F00F360BC /* tele-moacir.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92DA907827CEBB7F00F360BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					92DA907F27CEBB7F00F360BC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 92DA907B27CEBB7F00F360BC /* Build configuration list for PBXProject "tele-moacir" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92DA907727CEBB7F00F360BC;
+			productRefGroup = 92DA908127CEBB7F00F360BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92DA907F27CEBB7F00F360BC /* tele-moacir */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92DA907E27CEBB7F00F360BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DA909027CEBB8300F360BC /* LaunchScreen.storyboard in Resources */,
+				92DA908D27CEBB8300F360BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92DA907C27CEBB7F00F360BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DA909F27CED02A00F360BC /* LoginViewController.swift in Sources */,
+				92DA908827CEBB7F00F360BC /* ViewController.swift in Sources */,
+				92DA909D27CED00100F360BC /* LoginModel.swift in Sources */,
+				92DA909827CECD9100F360BC /* MainCoordinator.swift in Sources */,
+				92DA90A327CF8D8400F360BC /* EmployerModel.swift in Sources */,
+				92DA90A127CED05A00F360BC /* LoginViewModel.swift in Sources */,
+				92DA90A927CF8F4A00F360BC /* EmployerCell.swift in Sources */,
+				92DA909A27CECF7700F360BC /* Coordinator.swift in Sources */,
+				92DA90A527CF8DD800F360BC /* EmployerViewModel.swift in Sources */,
+				92DA908427CEBB7F00F360BC /* AppDelegate.swift in Sources */,
+				92DA90A727CF8DED00F360BC /* EmployerViewController.swift in Sources */,
+				92DA908627CEBB7F00F360BC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92DA908E27CEBB8300F360BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DA908F27CEBB8300F360BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92DA909227CEBB8300F360BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92DA909327CEBB8300F360BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92DA909527CEBB8300F360BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tele-moacir/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.nttdata.tele-moacir";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92DA909627CEBB8300F360BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tele-moacir/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.nttdata.tele-moacir";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92DA907B27CEBB7F00F360BC /* Build configuration list for PBXProject "tele-moacir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DA909227CEBB8300F360BC /* Debug */,
+				92DA909327CEBB8300F360BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DA909427CEBB8300F360BC /* Build configuration list for PBXNativeTarget "tele-moacir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DA909527CEBB8300F360BC /* Debug */,
+				92DA909627CEBB8300F360BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92DA907827CEBB7F00F360BC /* Project object */;
+}
